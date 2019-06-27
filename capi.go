@@ -28,7 +28,6 @@ const (
 	MethKeyWords                = C.METH_KEYWORDS
 	MethNoArgs                  = C.METH_NOARGS
 	MethO                       = C.METH_O
-	MethOldArgs                 = C.METH_OLDARGS
 	MethClass                   = C.METH_CLASS
 	MethStatic                  = C.METH_STATIC
 	MethCoexist                 = C.METH_COEXIST
