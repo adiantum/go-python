@@ -285,7 +285,6 @@ func PyErr_WriteUnraisable(obj *PyObject) {
 var (
 	PyExc_BaseException       = togo(C.PyExc_BaseException)
 	PyExc_Exception           = togo(C.PyExc_Exception)
-	PyExc_StandardError       = togo(C.PyExc_StandardError)
 	PyExc_ArithmeticError     = togo(C.PyExc_ArithmeticError)
 	PyExc_LookupError         = togo(C.PyExc_LookupError)
 	PyExc_AssertionError      = togo(C.PyExc_AssertionError)
